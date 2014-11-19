@@ -1,0 +1,41 @@
+
+#wrapper
+{	
+	width: 1220px;
+	overflow: hidden;
+	margin:0 auto;
+}
+
+#container
+{	
+	position: relative;
+	width:500%;
+}
+
+.rows
+{	
+	float:left;
+	width:20%;
+	text-align: center;
+}
+
+.arrow 
+{
+	position: absolute;
+}
+
+#right-arrow
+{
+	right:0;
+}
+
+#left-arrow
+{
+	left:0;
+}
+
+.rows img
+{
+	width:400px ! important;
+	height:300px ! important;
+}
