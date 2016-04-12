@@ -14,6 +14,9 @@ $(document).ready(
 			$('.rows').on('mouseleave',start);
 			$('#right-arrow').on('click',manual_next);
 			$('#left-arrow').on('click',manual_prev);
+		}
+		
+
 			setTimer();
 		}
 		
@@ -22,6 +25,8 @@ $(document).ready(
 			pause_value=false;
 			setTimer();
 		}
+
+			
 
 		function setTimer()
 		{	
@@ -77,7 +82,7 @@ $(document).ready(
 			}
 
 			var left = 100 * count;
-			$('#container').css('left','-' + left + '%');
+			$('#container').animate({'left':'-' + left + '%'},000);
 		}
 
 		function stop()
@@ -85,4 +90,5 @@ $(document).ready(
 			console.log('stop clicked');
 			clearInterval(time);
 		}
-	;})
+		    
+	});

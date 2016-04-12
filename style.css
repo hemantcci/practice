@@ -44,3 +44,136 @@
 {
 	height:40px;
 }
+
+/* Generic styles */
+html, 
+body {
+    color: #626262;
+    font: 0.9em Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    background: transparent url("../tie-img/icons-sprite.png") no-repeat 0 0;
+}
+
+#horizon {
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+/* Target indicator styling */
+#target-indicator {
+    background-color: #F2F2F2;
+    border: 1px solid #666666;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #666666;
+    height: 147px; 
+    margin: -74px auto 0;
+    width: 349px;
+}
+
+h1 {
+    background-color: #4A4949;
+    border-radius: 5px 5px 0 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 13px;
+}
+
+#target-display {
+    background-color: #FFFFFF;
+    border: 1px solid #D5D3D3;
+    border-radius: 5px;
+    height: 76px;
+    margin: 12px;
+    padding: 9px;
+}
+
+#target-indicator-inner {
+    height: 56px;
+    margin: 0 auto;
+    position: relative;
+    width: 256px;
+}
+
+#indicator-heading {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 14px;
+}
+
+#indicator-visual {
+    height: 40px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    width: 120px;
+}
+
+#indicator {
+    background-color: #CECECE;
+    height: 7px;
+    padding: 3px;
+}
+
+#indicator-inner {
+    background-color: #0489D1;
+    height: 7px;
+    width: 0%;
+}
+
+#indicator-text {
+    background-position: 3px -53px;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: -9px;
+    padding-top: 11px;
+    position: relative;
+    text-align: center;
+    width: 25px;
+}
+
+#target-wrapper {
+    background: #6E6E72 url("../tie-img/target-bg.png") repeat-x 0 0;
+    border: 1px solid #DCD9D9;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    height: 39px;
+    padding-top: 1px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 49px;
+}
+
+#target-wrapper p {
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+#target-wrapper p#target-amount {
+    font-size: 1.4em;
+    padding-top: 2px;
+}
+
+#indicator-note-wrapper {
+    text-align: center;
+}
+
+.indicator-note {
+    display: none;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+}
+
+#note-unqualified {
+    background-position: 0 -27px;
+}
